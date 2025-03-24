@@ -1,0 +1,36 @@
+[*]
+[*] GTKWave Analyzer v3.3.120 (w)1999-2024 BSI
+[*] Sat Jan 18 18:24:39 2025
+[*]
+[dumpfile] "/home/decapo/Work/TemplateProject_CycloneV_GX_Starter/tmp/sim.vcd"
+[dumpfile_mtime] "Sat Jan 18 18:22:29 2025"
+[dumpfile_size] 29332
+[savefile] "/home/decapo/Work/TemplateProject_CycloneV_GX_Starter/rtl/system/testbench/gtk_saves/reset_control_tb.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -1958 42
+*-5.400000 169 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.monostable_debouncer_tb.
+[treeopen] TOP.monostable_debouncer_tb.reset_controller.
+[sst_width] 273
+[signals_width] 270
+[sst_expanded] 1
+[sst_vpaned_height] 627
+@24
+TOP.monostable_debouncer_tb.CycleCount[31:0]
+@28
+TOP.monostable_debouncer_tb.reset_controller.por_n
+TOP.monostable_debouncer_tb.reset_controller.por_check
+@29
+TOP.monostable_debouncer_tb.reset_controller.local_clk_en
+@28
+TOP.monostable_debouncer_tb.reset_controller.user_rst_n
+TOP.monostable_debouncer_tb.reset_controller.button_debouncer.debounced_pulse
+TOP.monostable_debouncer_tb.reset_controller.async_rst
+TOP.monostable_debouncer_tb.reset_controller.waiting_current
+TOP.monostable_debouncer_tb.reset_controller.active_current
+TOP.monostable_debouncer_tb.reset_controller.cycle_count_current[2:0]
+TOP.monostable_debouncer_tb.reset_controller.counter_limit[2:0]
+[pattern_trace] 1
+[pattern_trace] 0

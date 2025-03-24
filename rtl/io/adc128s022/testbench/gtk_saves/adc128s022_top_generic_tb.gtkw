@@ -1,0 +1,50 @@
+[*]
+[*] GTKWave Analyzer v3.3.120 (w)1999-2024 BSI
+[*] Sun Feb  2 12:57:34 2025
+[*]
+[dumpfile] "/home/decapo/Work/Template_Project/tmp/sim.vcd"
+[dumpfile_mtime] "Sun Feb  2 12:54:55 2025"
+[dumpfile_size] 661251
+[savefile] "/home/decapo/Work/Template_Project/rtl/io/adc128s022/testbench/gtk_saves/adc128s022_top_generic_tb.gtkw"
+[timestart] 0
+[size] 1920 1033
+[pos] -27 499
+*-10.500001 2433 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.adc128S022_top_generic_tb.
+[treeopen] TOP.adc128S022_top_generic_tb.adc_controller.
+[treeopen] TOP.adc128S022_top_generic_tb.adc_controller.Channel_Generation[0].
+[treeopen] TOP.adc128S022_top_generic_tb.adc_controller.Channel_Generation[0].lower_channel.
+[sst_width] 273
+[signals_width] 300
+[sst_expanded] 1
+[sst_vpaned_height] 306
+@28
+TOP.adc128S022_top_generic_tb.sclk
+TOP.adc128S022_top_generic_tb.cs_n
+TOP.adc128S022_top_generic_tb.copi
+TOP.adc128S022_top_generic_tb.copi_en
+TOP.adc128S022_top_generic_tb.cipo
+TOP.adc128S022_top_generic_tb.adc_controller.state_current[1:0]
+TOP.adc128S022_top_generic_tb.adc_controller.update_ack
+TOP.adc128S022_top_generic_tb.adc_controller.single_update_req
+@22
+TOP.adc128S022_top_generic_tb.adc_controller.channels_out[0][11:0]
+TOP.adc128S022_top_generic_tb.adc_controller.channels_out[1][11:0]
+TOP.adc128S022_top_generic_tb.adc_controller.channels_out[2][11:0]
+TOP.adc128S022_top_generic_tb.adc_controller.channels_out[3][11:0]
+TOP.adc128S022_top_generic_tb.adc_controller.channels_out[4][11:0]
+TOP.adc128S022_top_generic_tb.adc_controller.channels_out[5][11:0]
+TOP.adc128S022_top_generic_tb.adc_controller.channels_out[6][11:0]
+TOP.adc128S022_top_generic_tb.adc_controller.channels_out[7][11:0]
+@28
+TOP.adc128S022_top_generic_tb.adc_controller.Channel_Generation[0].lower_channel.burst_valid_current
+TOP.adc128S022_top_generic_tb.adc_controller.Channel_Generation[0].lower_channel.single_valid_current
+TOP.adc128S022_top_generic_tb.adc_controller.Channel_Generation[0].lower_channel.burst_valid_trigger
+TOP.adc128S022_top_generic_tb.adc_controller.Channel_Generation[0].lower_channel.single_valid_trigger
+TOP.adc128S022_top_generic_tb.adc_controller.Channel_Generation[0].lower_channel.single_active
+TOP.adc128S022_top_generic_tb.adc_controller.Channel_Generation[0].lower_channel.active_address[2:0]
+@29
+TOP.adc128S022_top_generic_tb.adc_controller.Channel_Generation[0].lower_channel.active_index[2:0]
+[pattern_trace] 1
+[pattern_trace] 0

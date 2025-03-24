@@ -1,0 +1,18 @@
+#First ignore everything
+*
+/*
+#Whitelist IP, config and scripts folders
+!/ip
+!/ip/**
+!/config
+!/config/**
+!/scripts
+!/scripts/**
+#Whitelist bare minimum for a compile and flash
+!*.qpf
+!*.qsf
+!*.tcl
+!*.stp
+!*.sdc
+!*.sof
+!.gitignore

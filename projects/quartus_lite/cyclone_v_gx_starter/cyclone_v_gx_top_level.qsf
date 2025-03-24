@@ -1,0 +1,202 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2023  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and any partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details, at
+# https://fpgasoftware.intel.com/eula.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 23.1std.0 Build 991 11/28/2023 SC Lite Edition
+# Date created = 07:28:26  January 17, 2025
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		cyclone_v_gx_top_level_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Intel recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CGXFC5C6F27C7
+set_global_assignment -name TOP_LEVEL_ENTITY spi_top_generic
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 23.1STD.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "07:28:26  JANUARY 17, 2025"
+set_global_assignment -name LAST_QUARTUS_VERSION "23.1std.1 Lite Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name EDA_SIMULATION_TOOL "Questa Intel FPGA (Verilog)"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_timing
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
+set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name ENABLE_SIGNALTAP ON
+set_global_assignment -name USE_SIGNALTAP_FILE user/stp1.stp
+set_location_assignment PIN_Y16 -to user_buttons_n[3]
+set_location_assignment PIN_Y15 -to user_buttons_n[2]
+set_location_assignment PIN_P12 -to user_buttons_n[1]
+set_location_assignment PIN_P11 -to user_buttons_n[0]
+set_location_assignment PIN_AB24 -to user_rst_n
+set_location_assignment PIN_AE19 -to switches[9]
+set_location_assignment PIN_Y11 -to switches[8]
+set_location_assignment PIN_AC10 -to switches[7]
+set_location_assignment PIN_V10 -to switches[6]
+set_location_assignment PIN_AB10 -to switches[5]
+set_location_assignment PIN_W11 -to switches[4]
+set_location_assignment PIN_AC8 -to switches[3]
+set_location_assignment PIN_AD13 -to switches[2]
+set_location_assignment PIN_AE10 -to switches[1]
+set_location_assignment PIN_AC9 -to switches[0]
+set_location_assignment PIN_H9 -to green_leds[7]
+set_location_assignment PIN_H8 -to green_leds[6]
+set_location_assignment PIN_B6 -to green_leds[5]
+set_location_assignment PIN_A5 -to green_leds[4]
+set_location_assignment PIN_E9 -to green_leds[3]
+set_location_assignment PIN_D8 -to green_leds[2]
+set_location_assignment PIN_K6 -to green_leds[1]
+set_location_assignment PIN_L7 -to green_leds[0]
+set_location_assignment PIN_J10 -to red_leds[9]
+set_location_assignment PIN_H7 -to red_leds[8]
+set_location_assignment PIN_K8 -to red_leds[7]
+set_location_assignment PIN_K10 -to red_leds[6]
+set_location_assignment PIN_J7 -to red_leds[5]
+set_location_assignment PIN_J8 -to red_leds[4]
+set_location_assignment PIN_G7 -to red_leds[3]
+set_location_assignment PIN_G6 -to red_leds[2]
+set_location_assignment PIN_F6 -to red_leds[1]
+set_location_assignment PIN_F7 -to red_leds[0]
+set_location_assignment PIN_D26 -to TESTBIT_OUT
+set_location_assignment PIN_Y8 -to TESTBIT_IN
+set_location_assignment PIN_N20 -to user_50mhz_clk
+set_global_assignment -name PHYSICAL_SYNTHESIS_ASYNCHRONOUS_SIGNAL_PIPELINING ON
+set_global_assignment -name SMART_RECOMPILE ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_COMBO_LOGIC ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION ON
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_RETIMING ON
+set_global_assignment -name ROUTER_TIMING_OPTIMIZATION_LEVEL MAXIMUM
+set_location_assignment PIN_AC22 -to hex_3[6]
+set_location_assignment PIN_AC23 -to hex_3[5]
+set_location_assignment PIN_AC24 -to hex_3[4]
+set_location_assignment PIN_AA22 -to hex_3[3]
+set_location_assignment PIN_AA23 -to hex_3[2]
+set_location_assignment PIN_Y23 -to hex_3[1]
+set_location_assignment PIN_Y24 -to hex_3[0]
+set_location_assignment PIN_W20 -to hex_2[6]
+set_location_assignment PIN_W21 -to hex_2[5]
+set_location_assignment PIN_V20 -to hex_2[4]
+set_location_assignment PIN_V22 -to hex_2[3]
+set_location_assignment PIN_U20 -to hex_2[2]
+set_location_assignment PIN_AD6 -to hex_2[1]
+set_location_assignment PIN_AD7 -to hex_2[0]
+set_location_assignment PIN_AF24 -to hex_1[6]
+set_location_assignment PIN_AC19 -to hex_1[5]
+set_location_assignment PIN_AE25 -to hex_1[4]
+set_location_assignment PIN_AE26 -to hex_1[3]
+set_location_assignment PIN_AD26 -to hex_1[1]
+set_location_assignment PIN_AB19 -to hex_1[2]
+set_location_assignment PIN_AA18 -to hex_1[0]
+set_location_assignment PIN_Y18 -to hex_0[6]
+set_location_assignment PIN_Y19 -to hex_0[5]
+set_location_assignment PIN_Y20 -to hex_0[4]
+set_location_assignment PIN_W18 -to hex_0[3]
+set_location_assignment PIN_V17 -to hex_0[2]
+set_location_assignment PIN_V18 -to hex_0[1]
+set_location_assignment PIN_V19 -to hex_0[0]
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to user_rst_n
+set_instance_assignment -name IO_STANDARD "1.2 V" -to user_buttons_n[3]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to user_buttons_n[2]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to user_buttons_n[1]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to user_buttons_n[0]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to user_buttons_n
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches[9]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches[8]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches[7]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches[6]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches[5]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches[4]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches[3]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches[2]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches[1]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches[0]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to switches
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to user_50mhz_clk
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TESTBIT_IN
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to TESTBIT_OUT
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_0[6]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_0[5]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_0[4]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_0[3]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_0[2]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_0[1]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_0[0]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_1[6]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_1[5]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_1[4]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_1[3]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_1[2]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_1[1]
+set_instance_assignment -name IO_STANDARD "1.2 V" -to hex_1[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_2[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_2[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_2[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_2[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_2[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_2[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_2[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_3[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_3[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_3[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_3[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_3[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_3[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to hex_3[0]
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/lib/io_clock_divider.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/io/spi/spi_top_generic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/io/spi/spi_configuration.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/lib/double_dabble/double_dabble_top_generic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/lib/double_dabble/double_dabble_layer.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/lib/double_dabble/double_dabble_cell.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/top/cyclone_v_gx_toplevel.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/system/reset_control.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/system/domain_control.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/lib/monostable_debouncer.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/io/seven_segment_top_generic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/io/seven_segment_multiplexer.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/io/seven_segment_bcd_converter.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/io/seven_segment_animation.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/io/rgb_test_top_generic.sv
+set_global_assignment -name SYSTEMVERILOG_FILE ../../../rtl/io/buttons_top_generic.sv
+set_global_assignment -name QIP_FILE ip/pll.qip
+set_global_assignment -name SIP_FILE ip/pll.sip
+set_global_assignment -name SIGNALTAP_FILE user/stp1.stp
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name SLD_FILE db/stp1_auto_stripped.stp

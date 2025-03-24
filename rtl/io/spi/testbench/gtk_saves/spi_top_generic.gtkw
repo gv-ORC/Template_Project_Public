@@ -1,0 +1,67 @@
+[*]
+[*] GTKWave Analyzer v3.3.120 (w)1999-2024 BSI
+[*] Mon Feb  3 16:04:43 2025
+[*]
+[dumpfile] "/home/decapo/Work/Template_Project/tmp/sim.vcd"
+[dumpfile_mtime] "Mon Feb  3 16:03:54 2025"
+[dumpfile_size] 476698
+[savefile] "/home/decapo/Work/Template_Project/rtl/io/spi/testbench/gtk_saves/spi_top_generic.gtkw"
+[timestart] 434
+[size] 1920 1033
+[pos] -27 499
+*-3.899999 473 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.spi_top_generic_tb.
+[treeopen] TOP.spi_top_generic_tb.spi_controller.
+[sst_width] 273
+[signals_width] 340
+[sst_expanded] 1
+[sst_vpaned_height] 640
+@24
+TOP.spi_top_generic_tb.CycleCount[31:0]
+@200
+-Clock Gen
+@28
+TOP.spi_top_generic_tb.spi_controller.clock_divider.starting_polarity
+TOP.spi_top_generic_tb.spi_controller.clock_divider.sync_rst
+TOP.spi_top_generic_tb.spi_controller.clock_divider.clock_start
+TOP.spi_top_generic_tb.spi_controller.clock_divider.clock_state
+@200
+-SPI Config
+@28
+TOP.spi_top_generic_tb.spi_controller.configuration.cpol_in
+TOP.spi_top_generic_tb.spi_controller.configuration.cpha_in
+TOP.spi_top_generic_tb.spi_controller.configuration.sclk_start_polarity_in
+@200
+-SPI Control
+@28
+TOP.spi_top_generic_tb.spi_controller.state_current[2:0]
+@24
+TOP.spi_top_generic_tb.spi_controller.transfer_remaining_current[5:0]
+@28
+TOP.spi_top_generic_tb.spi_controller.cipo_current[1:0]
+@22
+TOP.spi_top_generic_tb.spi_controller.copi_output_current[3:0]
+TOP.spi_top_generic_tb.spi_controller.copi_output_next[3:0]
+@28
+TOP.spi_top_generic_tb.spi_controller.copi_output_trigger
+TOP.spi_top_generic_tb.spi_controller.copi_output_next_condition[1:0]
+@22
+TOP.spi_top_generic_tb.spi_controller.in_coming_data_current[31:0]
+@200
+-SPI Interface
+@28
+TOP.spi_top_generic_tb.spi_controller.sclk
+TOP.spi_top_generic_tb.spi_controller.cs_n[0]
+TOP.spi_top_generic_tb.spi_controller.copi
+TOP.spi_top_generic_tb.spi_controller.copi_en
+TOP.spi_top_generic_tb.spi_controller.cipo
+@200
+-handshakes
+@28
+TOP.spi_top_generic_tb.spi_controller.transfer_start_ack
+TOP.spi_top_generic_tb.spi_controller.transfer_start_req
+TOP.spi_top_generic_tb.spi_controller.transfer_end_ack
+TOP.spi_top_generic_tb.spi_controller.transfer_end_req
+[pattern_trace] 1
+[pattern_trace] 0
