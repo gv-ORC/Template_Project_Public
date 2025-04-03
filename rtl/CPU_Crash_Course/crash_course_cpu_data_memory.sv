@@ -24,6 +24,8 @@ module crash_course_cpu_data_memory (
     output             io_write_en
 );
 
+//TODO: Fix readme once this is updated
+
     reg  [7:0] data_ram [255:0];
     wire data_ram_trigger = clk_en && store_enable && system_enabled;
     always_ff @(posedge clk) begin
